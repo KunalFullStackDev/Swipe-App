@@ -11,7 +11,7 @@ import RestaurantItems, {
 } from "../Components/home/RestaurantItems";
 
 const YELP_API_KEY =
-  "-QcOBs1sRU2qoeiLHWqsZqbzl7RpaFL04ZOMlFDAn7JNVIOjZUMwoJaUGHrNzavcCxeACk6lw0osxStuN275ugWNTkyV5wFfxNgm2UL6-nLzd_XSjOqeYt-J5Sq0YnYx";
+  "Yelp-api-key-put-here";
 
 export default function Home({ navigation }) {
   const [restaurantData, setRestaurantData] = useState(localRestaurants);
